@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: 签出代码
-        uses: actions/checkout@v3.5.0
+        uses: actions/checkout@v4
       - name: 初始化JDK
         uses: actions/setup-java@v3.12.0
         with:
