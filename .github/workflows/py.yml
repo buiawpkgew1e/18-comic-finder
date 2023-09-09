@@ -21,7 +21,7 @@ jobs:
       UPLOAD_NAME: '下载完成的本子'
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Set up Python 3.11
         uses: actions/setup-python@v4
         with:
